@@ -26,7 +26,7 @@ export const ContactForm = ({ handleSubmit }) => {
 
   return (
     <form className={css.form} onSubmit={handleFormSubmit}>
-      <label className={css.formLabel}>Name </label>
+      <label className={css.formLabel}> Name </label>
       <input
         className={css.formName}
         type="text"
@@ -38,7 +38,7 @@ export const ContactForm = ({ handleSubmit }) => {
         value={name}
         onChange={handleChangeName}
       />
-      <label className={css.formLabel}>Number </label>
+      <label className={css.formLabel}> Number </label>
       <input
         className={css.formNumber}
         type="tel"

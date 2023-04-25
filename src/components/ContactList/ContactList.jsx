@@ -6,7 +6,7 @@ export const ContactList = ({ contacts, handleDelete }) => (
     <ul className={css.contactList}>
       {contacts.map((contact, id) => (
         <li key={id} className={css.contactListItem}>
-          {contact.name}: {contact.number}
+          {contact.name} : {contact.number}
           <button
             type="button"
             className={css.contactListItemBtn}

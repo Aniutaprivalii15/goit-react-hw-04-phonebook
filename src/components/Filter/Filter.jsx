@@ -3,7 +3,7 @@ import css from './Filter.module.css';
 
 export const Filter = ({ filter, handleChange }) => (
   <div>
-    <label className={css.filterLabel}>Find contacts by Name </label>
+    <label className={css.filterLabel}> Find contacts by Name </label>
     <input
       className={css.filterName}
       type="text"
